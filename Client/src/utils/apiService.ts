@@ -3,7 +3,7 @@
  * API service for making requests to the backend
  */
 
-const API_URL = 'https://bimbsserver.vercel.app/';
+const API_URL = 'https://bimbsserver.vercel.app/api';
 
 // Generic fetch function with error handling
 const fetchAPI = async (endpoint: string, options: RequestInit = {}) => {
